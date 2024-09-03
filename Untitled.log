@@ -1,0 +1,18 @@
+2024-09-03T23:29:20.677+09:00[0;39m [31mERROR[0;39m [35m2729[0;39m [2m---[0;39m [2m[kadai_002] [  restartedMain][0;39m [2m[0;39m[36mo.s.b.d.LoggingFailureAnalysisReporter  [0;39m [2m:[0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field emailService in com.example.kadai_002.service.PasswordResetService required a bean of type 'com.example.kadai_002.service.EmailService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.kadai_002.service.EmailService' in your configuration.
+
